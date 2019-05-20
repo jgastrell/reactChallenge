@@ -26,6 +26,3 @@
 
 
 * For API calls you can use Axios, Feather, Fetch or what you want.
-
-
-8. Upload the project into the GitHub repository and send me a link to dmitry.dzetsin@view.com
