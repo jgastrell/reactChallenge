@@ -1,9 +1,19 @@
 import React from "react";
 import { Table, Spinner } from 'reactstrap';
 
+const style = {
+  spinner: {
+    position: 'absolute',
+    height: '100px',
+    width: '100px',
+    marginLeft: '400px',
+    marginTop: '200px',
+  }
+};
+
 const UsersView = ({ users, loading, handleScroll}) => {
   if(loading) {
-    return  <Spinner color='primary' />;
+    return  <Spinner color='primary' style={style.spinner} />;
   };
 
   return (
